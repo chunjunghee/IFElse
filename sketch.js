@@ -10,5 +10,9 @@ function setup()
 
 function draw()
 {
-	ellipse(300,300,mouseX,mouseY);
+	ellipse(300, 300,300,300);
+	// draw function
+if (mouseX < 300) {
+  ellipse(200, 200, 100, 100);
+}
 }
